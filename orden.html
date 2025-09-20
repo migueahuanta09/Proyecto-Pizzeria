@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+        <title> Ordena Ahora</title>
+        <meta name="Author" content="Miguel Garcia">
+    </head>
+
+    <body>
+        <blockquote>
+            <h1>Ordena Ahora</h1>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Sobre Nosotros</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="orden.html">Ordena Ahora</a></li>
+            </ul>
+
+                <table border="1">
+                        <tr>
+                            <th>Nombre</th>
+                            <th>ingrendientes</th>
+                            <th>Precio</th>
+                        </tr>
+                        <tr>
+                            <td><a href="margarita.html">Pizza Margarita</a></td>
+                            <td>Queso mozzarella, salsa de tomate, albahaca</td>
+                            <td>$230 MXN</td>
+                        </tr>
+                        <tr>
+                            <td><a href="pepperoni.html">Pizza Pepperoni</a></td>
+                            <td>Queso mozzarella, salsa de tomate, pepperoni</td>
+                            <td>$250 MXN</td>
+                        </tr>
+                         <tr>
+                            <td><a href="vegetariana.html">Pizza Vegetariana</a></td>
+                            <td>Queso mozzarella, pimientos, champiñones</td>
+                            <td>$220 MXN</td>
+                        </tr>
+                         <tr>
+                            <td><a href="cuatroquesos.html">Pizza 4 Quesos</a></td>
+                            <td>Queso mozzarella, queso parmesano, queso azul, queso gouda</td>
+                            <td>$280 MXN</td>
+                        </tr>
+                </table>
+                    <br>
+        <h1>Formulario de Pedido</h1>   
+                <form>
+                <label for="nombre">Nombre Completo:</label><br>
+                <input type="text" id="nombre" name="nombre"><br><br>
+            </form>
+
+            <form>
+                <label for="direccion">Ingrese su Dirección:</label><br>
+                <input type="text" id="direccion" name="direccion" value=""><br><br>
+            </form>
+
+             <form><hr>
+                <label for="direccion">Tipo de Pizza</label><br>
+                    <label>Pizza Margarita</label>
+                    <input  type ="radio" name="tipopizza " value="margarita">
+                    <label>Pizza Pepperoni</label>
+                    <input  type ="radio" name="tipopizza " value="Pizza Pepperoni">
+                    <label>Pizza Vegetariana</label>
+                    <input  type ="radio" name="tipopizza " value="Pizza Vegetariana">
+                    <label>Pizza 4 Quesos</label>
+                    <input  type ="radio" name="tipopizza " value="Pizza 4 Quesos">
+            </form><br><br><hr>
+
+             <form>
+                <label for="direccion">Tamaño de Pizza</label><br>
+                    <label>Pequeño</label>
+                    <input  type ="radio" name="pequeño " value="pequeño">
+                    <label>Mediano</label>
+                    <input  type ="radio" name="mediano " value="mediano">
+                    <label>Grande</label>
+                    <input  type ="radio" name="Grande " value="grande">
+                    
+            </form><br><br><hr>
+
+            <form>
+                <label for="direccion">Ingredientes Adicionales</label><br>
+                    <label>Pequeño</label>
+                    <input  type ="radio" name="adQExtra " value="queso">
+                    <label>Mediano</label>
+                    <input  type ="radio" name="adPeperonni " value="pepperoni">
+                    <label>Grande</label>
+                    <input  type ="radio" name="AdAceitunas " value="aceitunas">
+                    <label>Grande</label>
+                    <input  type ="radio" name="adChampiñones " value="champiñones">
+                    
+            </form><br><br><hr>
+            <label>Cantidad:</label>
+                <input type="number" min="1" max="20" step="1 " name="">
+            <hr>
+            <br>
+            <form>
+                <label for="direccion">Mensajes Adicionales:</label><br>
+                <input type="text" id="admensaje" name="mensaje" value=""><br><br>
+            </form>
+
+            <input type="submit" name="" value="Enviar Pedido">
+            <p>&copy; 2025 Pizzeria El Buen Sabor</p>
+
+        </blockquote>
+    </body>
+</html>
